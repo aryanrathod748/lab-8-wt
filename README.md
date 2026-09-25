@@ -1,192 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marwadi - Department of Computer Engineering</title> >
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <style>
+        .gallery-img 
+        {
+            width: 100%;
+            height: 200px; 
+            object-fit: cover; 
+        }
+    </style>
 </head>
 
-<body class="bg-light">
-
-<header class="bg-primary text-white text-center p-4">
-<img src="marwadilogo.png"
-alt="Marwadi University Logo"
-class="img-fluid mb-3"
-style="width: 120px;">
-<h1 class="fw-bold">
-Marwadi University
-</h1>
-<h2 class="h4">
-Department of Computer Engineering
-</h2>
-</header>
-
-<nav class="bg-info text-center p-3">
-<a href="#vision"
-class="text-white text-decoration-none fw-bold mx-2">
-Vision
-</a>
-<a href="#mission"
-class="text-white text-decoration-none fw-bold mx-2">
-Mission
-</a>
-<a href="#pso"
-class="text-white text-decoration-none fw-bold mx-2">
-Programs Specific Outcomes
-</a>
-<a href="#courses"
-class="text-white text-decoration-none fw-bold mx-2">
-Courses Offered
-</a>
-<a href="#recruiters"
-class="text-white text-decoration-none fw-bold mx-2">
-Top Recruiters
-</a>
-</nav>
-
-<section id="vision" class="container my-4">
-<div class="card shadow-sm">
-<div class="card-body">
-<h3 class="text-primary fw-bold">
-Vision
-</h3>
-<p>
-To impart quality technical education through research,
-innovation and teamwork for creating professionally superior and
-ethically strong manpower that meets the global challenges of
-engineering industries and research organizations.
-</p>
+<body class="bg-secondary">
+    <div class="card">
+        <div class="card-header bg-primary text-white text-center py-1">
+            <h1 class="fw-bold">Marwadi University</h1>
+            <h2 class="fw-bold">Department Of Computer Engineering</h2>
+        </div>
+        <nav class="d-flex flex-wrap justify-content-center bg-info py">
+            <a href="#Vision" class="btn bg-light m-1">Vision</a>
+            <a href="#Mission" class="btn bg-light m-1">Mission</a>
+            <a href="#PSO" class="btn bg-light m-1">PSO</a>
+            <a href="#CO" class="btn bg-light m-1">CO</a>
+            <a href="#Gallery" class="btn bg-light m-1">Gallery</a>
+            <a href="#TR" class="btn bg-light m-1">TR</a>
+        </nav>
+        <div class="card-body p-4 border border-3 rounded border-dark shadow mx-3 mt-3">
+            <h5 id="Vision" class="fw-bold mb-3">Vision</h5>
+            <p class="mb-0 text-dark">To impart quality technical education through research, innovation, and teamwork
+                for creating professionally superior and ethically strong manpower that meets the global challenges of
+                engineering industries and research organizations.</p>
+        </div>
+        <div class="card-body p-4 border border-3 rounded border-dark shadow mx-3 mt-3">
+            <h5 id="Mission" class="fw-bold mb-3">Mission</h5>
+            <ul class="mb-0">
+                <li>Maintain state-of-the-art ICT enabled teaching and learning methodologies.</li>
+                <li>Enable graduates to become digital age literates, innovators, and
+                    professionals.</li>
+                <li>Provide skills, knowledge, and attitudes for success as engineers, leaders, and
+                    entrepreneurs.</li>
+                <li>Prepare graduates for lifelong learning and career challenges.</li>
+            </ul>
+        </div>
+        <div class="card-body p-4 border border-3 rounded border-dark shadow mx-3 mt-3">
+            <h5 id="PSO" class="fw-bold mb-3">Program Specific Outcomes</h5>
+            <ol class="mb-0">
+                <li>Apply knowledge and competence in the design and development of computer-
+                    based systems addressing industrial and social needs.</li>
+                <li>Adapt to emerging technological advancements including cybersecurity, AR/VR,
+                    and IoT.</li>
+            </ol>
+        </div>
+        <div class="card-body p-4 border border-3 rounded border-dark shadow mx-3 mt-3">
+            <h5 id="CO" class="fw-bold mb-3">Courses Offered</h5>
+            <ul class="mb-0">
+                <li>B.Tech in Computer Engineering</li>
+                <li>B.Tech in Cyber Security</li>
+                <li>M.Tech in Computer Engineering</li>
+                <li>Ph.D. in Computer Science & Engineering</li>
+            </ul>
+        </div>
+        <div class="card-body p-4 border border-3 rounded border-dark shadow mx-3 mt-3">
+            <h5 id="Gallery" class="fw-bold mb-3">Gallery</h5>
+            <!-- Bootstrap Grid for Photo Gallery -->
+            <div class="row g-3">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMknAcsZfbNaVIgKUAegsGOIJhZl1Vm0JErRLh_B-PtQ&s=10" class="gallery-img img-fluid rounded shadow-sm" alt="Photo 1">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtJTTU5VFZyRlAKpel83WUBONjc9q70mr7ZKcSP0jpg&s=10" class="gallery-img img-fluid rounded shadow-sm" alt="Photo 2">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvasw3jxfeVOxkYetVcO672JQ6WXlfH7P8-7qWn7gwFZyui4oLA6XITNw&s" class="gallery-img img-fluid rounded shadow-sm" alt="Photo 3">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKTv5GFqI_Fs0arRXNxZssjL40nBhBVPy6JOrmGhqkBQ&s=10" class="gallery-img img-fluid rounded shadow-sm" alt="Photo 4">
+                </div>
+            </div>
+        </div>
+        <div class="card-body p-4 border border-3 rounded border-dark shadow m-3">
+            <h5 id="TR" class="fw-bold mb-3">Top Recruiters</h5>
+            <ul class="mb-0">
+                <li>TCS</li>
+                <li>Infosys</li>
+                <li>Capgemini</li>
+                <li>Wipro</li>
+                <li>LTIMindtree</li>
+                <li>Cognizant</li>
+                <li>Reliance Industries</li>
+            </ul>
+        </div>
+      <div class="card-footer text-center bg-primary">&copy; 2026 MU – Department Of Computer Engineering</div>
 </div>
-</div>
-</section>
-
-<section id="mission" class="container my-4">
-<div class="card shadow-sm">
-<div class="card-body">
-<h3 class="text-primary fw-bold">
-Mission
-</h3>
-<ul class="list-group">
-<li class="list-group-item">
-Maintain state-of-the-art ICT enabled teaching and
-learning methodologies.
-</li>
-<li class="list-group-item">
-Enable graduates to become digital age literates,
-innovators, and professionals.
-</li>
-<li class="list-group-item">
-Provide skills, knowledge, and attitudes for success
-as engineers, leaders, and entrepreneurs.
-</li>
-<li class="list-group-item">
-Prepare graduates for lifelong learning and career
-challenges.
-</li>
-</ul>
-</div>
-</div>
-</section>
-
-<section id="pso" class="container my-4">
-<div class="card shadow-sm">
-<div class="card-body">
-<h3 class="text-primary fw-bold">
-Programs Specific Outcomes
-</h3>
-<ol class="list-group list-group-numbered">
-<li class="list-group-item">
-Apply knowledge and competence in the design and
-development of computer-based systems addressing industrial
-and social needs.
-</li>
-<li class="list-group-item">
-Adapt to emerging technological advancements including
-cybersecurity, AR/VR, and IoT.
-</li>
-</ol>
-</div>
-</div>
-</section>
-
-<section id="courses" class="container my-4">
-<div class="card shadow-sm">
-<div class="card-body">
-<h3 class="text-primary fw-bold">
-Courses Offered
-</h3>
-<ul class="list-group">
-<li class="list-group-item">
-B.Tech in Computer Engineering
-</li>
-<li class="list-group-item">
-M.Tech in Computer Engineering
-</li>
-<li class="list-group-item">
-Ph.D. in Computer Engineering
-</li>
-<li class="list-group-item">
-B.Tech in Information Technology
-</li>
-</ul>
-</div>
-</div>
-</section>
-
-<section id="recruiters" class="container my-4">
-<div class="card shadow-sm">
-<div class="card-body">
-<h3 class="text-primary fw-bold">
-Top Recruiters
-</h3>
-<div class="row">
-<div class="col-md-4 mb-3">
-<div class="alert alert-primary">
-Microsoft
-</div>
-</div>
-<div class="col-md-4 mb-3">
-<div class="alert alert-primary">
-Google
-</div>
-</div>
-<div class="col-md-4 mb-3">
-<div class="alert alert-primary">
-Amazon
-</div>
-</div>
-<div class="col-md-4 mb-3">
-<div class="alert alert-primary">
-Infosys
-</div>
-</div>
-<div class="col-md-4 mb-3">
-<div class="alert alert-primary">
-TCS
-</div>
-</div>
-<div class="col-md-4 mb-3">
-<div class="alert alert-primary">
-Wipro
-</div>
-</div>
-<div class="col-md-4 mb-3">
-<div class="alert alert-primary">
-IBM
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-<footer class="bg-primary text-white text-center p-3">
-<p class="mb-0">
-&copy; 2025 Marwadi University -
-Department of Computer Engineering
-</p>
-</footer>
 </body>
+
 </html>
